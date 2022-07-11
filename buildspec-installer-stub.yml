@@ -1,0 +1,16 @@
+version: 0.2
+
+env:
+  shell: cmd.exe
+  variables:
+    VERSION: 0.0.0.0
+
+phases:
+  pre_build:
+    commands:
+      - refreshenv
+  build:
+    commands:
+      # build custom installer
+      - ./test.cmd
+
