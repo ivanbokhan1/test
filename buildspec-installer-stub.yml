@@ -12,5 +12,5 @@ phases:
   build:
     commands:
       # build custom installer
-      - ./test.cmd
+      - test.cmd
 
