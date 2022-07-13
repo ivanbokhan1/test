@@ -1,2 +1,3 @@
+timeoute 60
 echo Hello
-echo Test
+pause
